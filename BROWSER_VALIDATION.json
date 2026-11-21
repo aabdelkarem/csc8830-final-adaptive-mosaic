@@ -1,0 +1,9 @@
+{
+  "method": "Browser UI on local HTTP server",
+  "initial_astronaut_256": "Displayed adaptive MSE 1840.49 versus grid 2164.34, 15.0% reduction",
+  "coffee_64": "Displayed adaptive MSE 1490.94 versus grid 1716.91, 13.2% reduction",
+  "coffee_1024": "Displayed adaptive MSE 350.33 versus grid 585.62, 40.2% reduction",
+  "controls": "Photograph, tile budget, ink and palette controls exercised successfully",
+  "export": "Download click could not be verified after browser session interruption; exporter code is present",
+  "status": "Core browser controls verified; export UI not verified"
+}

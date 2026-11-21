@@ -1,0 +1,34 @@
+{
+  "file": "Mosaic_30_Seconds_NARRATED.mp4",
+  "duration_seconds": 30,
+  "decoded_video_frames": 900,
+  "fps": 30,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "decoded_audio_samples_per_channel": 1428046,
+  "audio_sample_rate": 48000,
+  "source_recording_sha256": "b7f042e44a2f4c4ce98d06ad97dfcb10ea3d7f40e92fc240e1039136b5e7aa4c",
+  "source_recording_decoded_seconds": 39.59466666666667,
+  "source_trim_start_seconds": 1.120000000000002,
+  "source_trim_end_seconds": 38.17,
+  "pitch_preserving_tempo_factor": 1.251689189189189,
+  "panel_boundaries_seconds": [
+    0.0,
+    6.1,
+    9.6,
+    11.966666666666667,
+    15.8,
+    24.666666666666668,
+    30.0
+  ],
+  "audio_processing": "Recorded voice, pitch-preserving tempo adjustment, loudness normalization, peak limiting and 0.2-second lead-in.",
+  "sha256": "cd6c1c815d094888289bb4341bb077ca1c4a7f4ebc0210dd8f7a2d9ba956ee72",
+  "audio_origin": "User-uploaded New Recording(2).m4a",
+  "export_transcript_automatic": "Hi, I'm Aya Abdul Karim. My project creates Mosaic art from photographs. It repeatedly splits the region that reduces color error most. Giving detailed area smaller tiles, users can adjust the tile count, palette and borders. On three test photographs, adaptive tiles, reduced color error by about 14 to 20 percent compared with a regular grid. These results measure color fidelity while artistic preference requires separate evaluation.",
+  "export_decoded_audio_seconds": 29.7509375,
+  "ending_phrase_verified": true,
+  "export_stereo_peak": 0.8087561726570129,
+  "export_mono_downmix_peak": 1.0533778667449951
+}

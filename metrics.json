@@ -1,0 +1,113 @@
+{
+  "created_utc": "2026-11-18T07:57:19Z",
+  "python": "3.14.6",
+  "numpy": "2.4.6",
+  "rows": [
+    {
+      "image": "astronaut",
+      "budget": 64,
+      "adaptive_mse": 3015.915349785549,
+      "uniform_mse": 3178.3735491683087,
+      "adaptive_psnr_db": 13.336612132049728,
+      "uniform_psnr_db": 13.108754230598581,
+      "mse_reduction_percent": 5.111362678728259,
+      "adaptive_seconds_single_run": 0.006610500000533648,
+      "tile_count": 64
+    },
+    {
+      "image": "astronaut",
+      "budget": 256,
+      "adaptive_mse": 1840.4899017897744,
+      "uniform_mse": 2164.3364635507264,
+      "adaptive_psnr_db": 15.481469219208723,
+      "uniform_psnr_db": 14.777555846067813,
+      "mse_reduction_percent": 14.962856617480902,
+      "adaptive_seconds_single_run": 0.021416625000711065,
+      "tile_count": 256
+    },
+    {
+      "image": "astronaut",
+      "budget": 1024,
+      "adaptive_mse": 790.125484024485,
+      "uniform_mse": 1128.438330411911,
+      "adaptive_psnr_db": 19.153842914867205,
+      "uniform_psnr_db": 17.606025311658165,
+      "mse_reduction_percent": 29.98062342174539,
+      "adaptive_seconds_single_run": 0.05477524999878369,
+      "tile_count": 1024
+    },
+    {
+      "image": "coffee",
+      "budget": 64,
+      "adaptive_mse": 1490.9384455680847,
+      "uniform_mse": 1716.909801363945,
+      "adaptive_psnr_db": 16.396206471948958,
+      "uniform_psnr_db": 15.783328809655119,
+      "mse_reduction_percent": 13.161515859269047,
+      "adaptive_seconds_single_run": 0.005759500003478024,
+      "tile_count": 64
+    },
+    {
+      "image": "coffee",
+      "budget": 256,
+      "adaptive_mse": 830.8106659563879,
+      "uniform_mse": 1037.7411640485127,
+      "adaptive_psnr_db": 18.935782974917657,
+      "uniform_psnr_db": 17.969913166456454,
+      "mse_reduction_percent": 19.940473141186022,
+      "adaptive_seconds_single_run": 0.012859124995884486,
+      "tile_count": 256
+    },
+    {
+      "image": "coffee",
+      "budget": 1024,
+      "adaptive_mse": 350.3258765488863,
+      "uniform_mse": 585.6223192214966,
+      "adaptive_psnr_db": 22.686081435406912,
+      "uniform_psnr_db": 20.454627406829744,
+      "mse_reduction_percent": 40.17887210743678,
+      "adaptive_seconds_single_run": 0.039784209002391435,
+      "tile_count": 1024
+    },
+    {
+      "image": "chelsea",
+      "budget": 64,
+      "adaptive_mse": 601.5567467386524,
+      "uniform_mse": 653.8539866457382,
+      "adaptive_psnr_db": 20.338037588960937,
+      "uniform_psnr_db": 19.97599584827936,
+      "mse_reduction_percent": 7.998305581246057,
+      "adaptive_seconds_single_run": 0.005842290993314236,
+      "tile_count": 64
+    },
+    {
+      "image": "chelsea",
+      "budget": 256,
+      "adaptive_mse": 377.7392257588605,
+      "uniform_mse": 440.7258776624997,
+      "adaptive_psnr_db": 22.358882750446835,
+      "uniform_psnr_db": 21.68911809572693,
+      "mse_reduction_percent": 14.29157104132499,
+      "adaptive_seconds_single_run": 0.012180999998236075,
+      "tile_count": 256
+    },
+    {
+      "image": "chelsea",
+      "budget": 1024,
+      "adaptive_mse": 214.895752577732,
+      "uniform_mse": 260.8645393848419,
+      "adaptive_psnr_db": 24.80852529137671,
+      "uniform_psnr_db": 23.966653135659406,
+      "mse_reduction_percent": 17.62170777044334,
+      "adaptive_seconds_single_run": 0.03938229099730961,
+      "tile_count": 1024
+    }
+  ],
+  "validation": "exact coverage, tile budgets, monotonic SSE, independent SSE, constant and quadrant checks passed",
+  "preprocessing": "EXIF orientation, center crop and LANCZOS resize to 256x256, identical for both methods",
+  "inputs": {
+    "astronaut.png": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+    "coffee.png": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+    "chelsea.png": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb"
+  }
+}
